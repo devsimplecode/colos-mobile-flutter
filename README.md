@@ -6,6 +6,8 @@
 ![](https://github.com/GaLenN3228/portfolio_preview/blob/main/assets/theme_and_language.gif)
 
 
+# Code Architecture
+```mermaid
 erDiagram
     API ||--|| CONTROLLER : raw-data
     CONTROLLER ||--|| SERVICE : valid-data
@@ -13,3 +15,4 @@ erDiagram
     SERVICE }|--|{ REPOSITORY : model
     SERVICE }|--|{ PRESENTER : array-response
     REPOSITORY ||--|| DB-TABLE : model-data
+```
