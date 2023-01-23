@@ -38,6 +38,19 @@ We used BLoC pattern for localization.
     ],
 ```
 
+## Theme switching
+
+Theme switching implementation the same as Multi-language implementation
+
+
+```bash
+    return BlocBuilder<BlocAppTheme, StateAppTheme>(
+            bloc: widget.blocTheme,
+            builder: (context, _state) {
+              return InitWidget(
+                blocTheme: widget.blocTheme,
+```
+
 
 
 <p align="center">
