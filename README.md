@@ -66,6 +66,15 @@ Theme switching implementation the same as Multi-language implementation
 
 All Google maps integration you can find in [example](https://github.com/GaLenN3228/portfolio_preview/tree/main/examples/map)
 
+Function to calculate middle point for map zoom level
+```bash
+    LatLng _countMiddlePoint(LatLng point1, LatLng point2) {
+         final firstPoin = (point1.latitude + point2.latitude) / 2;
+         final secondPoint = (point1.longitude + point2.longitude) / 2;
+      return LatLng(firstPoin, secondPoint);
+}
+```
+
 <p align="center">
   <img src="https://github.com/GaLenN3228/portfolio_preview/blob/main/assets/map_preview.gif" alt="animated" />
 </p>
