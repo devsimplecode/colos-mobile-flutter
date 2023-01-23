@@ -11,6 +11,35 @@ COLOS is an application for tracking your shipments. Also, different roles could
 - Theme switching
 - Google maps polyline drawing and custom icons
 
+
+## Multi-language support
+
+Multi-language implementation
+
+We used BLoC pattern for localization. 
+
+```bash
+   BlocBuilder<BlocLocale, StateBlocLocale>(
+        bloc: widget.blocLocale,
+        builder: (context, state) {
+```
+
+```bash
+  MaterialApp.router(
+    supportedLocales: widget.blocLocale.supportedLocales,
+    scaffoldMessengerKey: scaffoldMessengerKey,
+    debugShowCheckedModeBanner: false,
+    locale: widget.blocLocale.uiLocale,
+    localizationsDelegates: const [
+    S.delegate,
+    GlobalMaterialLocalizations.delegate,
+    GlobalWidgetsLocalizations.delegate,
+    GlobalCupertinoLocalizations.delegate,
+    ],
+```
+
+
+
 <p align="center">
   <img src="https://github.com/GaLenN3228/portfolio_preview/blob/main/assets/theme_and_language.gif" alt="animated" />
 </p>
