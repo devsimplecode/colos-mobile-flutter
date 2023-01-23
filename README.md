@@ -30,16 +30,16 @@ We used BLoC pattern for localization.
 ```
 
 ```bash
-  MaterialApp.router(
-    supportedLocales: widget.blocLocale.supportedLocales,
-    scaffoldMessengerKey: scaffoldMessengerKey,
-    debugShowCheckedModeBanner: false,
-    locale: widget.blocLocale.uiLocale,
-    localizationsDelegates: const [
-    S.delegate,
-    GlobalMaterialLocalizations.delegate,
-    GlobalWidgetsLocalizations.delegate,
-    GlobalCupertinoLocalizations.delegate,
+ return MaterialApp.router(
+      supportedLocales: widget.blocLocale.supportedLocales,
+      scaffoldMessengerKey: scaffoldMessengerKey,
+      debugShowCheckedModeBanner: false,
+      locale: widget.blocLocale.uiLocale,
+      localizationsDelegates: const [
+      S.delegate,
+      GlobalMaterialLocalizations.delegate,
+      GlobalWidgetsLocalizations.delegate,
+      GlobalCupertinoLocalizations.delegate,
     ],
 ```
 
