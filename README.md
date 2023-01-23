@@ -12,9 +12,9 @@ Web app: Vue.js
 
 ## Features
 
-- Multi-language support
-- Theme switching
-- Google maps polyline drawing and custom icons
+- Multi-language support  [example](https://github.com/GaLenN3228/portfolio_preview/tree/main/examples/locale_bloc)
+- Theme switching   [example](https://github.com/GaLenN3228/portfolio_preview/tree/main/examples/bloc_theme)
+- Google maps polyline drawing and custom icons  [example](https://github.com/GaLenN3228/portfolio_preview/tree/main/examples/map)
 
 
 ## Multi-language support
