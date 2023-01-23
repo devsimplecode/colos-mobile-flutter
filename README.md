@@ -7,5 +7,5 @@
 ![](https://github.com/GaLenN3228/portfolio_preview/blob/main/assets/theme_and_language.gif)
 </p>
 
-
+![](https://github.com/GaLenN3228/portfolio_preview/blob/main/assets/theme_and_language.gif)
 
