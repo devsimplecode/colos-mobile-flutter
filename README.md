@@ -59,7 +59,7 @@ Theme switching implementation the same as Multi-language implementation
 
 
 <p align="center">
-  <img src="https://github.com/GaLenN3228/portfolio_preview/blob/main/assets/theme_and_language.gif" alt="animated" />
+  <img src="https://gitlab.com/simplecodedev/portfolio/flutter/flutter-colos/colos_mobile/-/blob/main/assets/map_preview.gif" alt="animated" />
 </p>
 
 ## Google maps polyline drawing and custom icons
